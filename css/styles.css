@@ -1,0 +1,28 @@
+@font-face {
+    font-family: caslon;
+    src: url(../fonts/CaslonGraphiqueEF.ttf);}
+
+
+@font-face {
+    font-family: gotham;
+    src: url(../fonts/Gotham-Book.otf);}
+
+
+@font-face {
+    font-family: gotham-lt;
+    src: url(../fonts/GOTHAM-LIGHT.TTF);}
+
+
+@font-face {
+    font-family: gotham-bold;
+    src: url(../fonts/GOTHAM-BOLD.TTF);}
+
+
+
+
+
+
+
+h1 {
+    font-family: caslon, georgia;
+    font-size: }
