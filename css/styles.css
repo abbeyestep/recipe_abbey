@@ -49,7 +49,7 @@ h4 {
 h5 {
     font-family: gotham-bold, arial;
     font-size: 1.5em;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     line-height: 1em;}
 
 
@@ -180,7 +180,7 @@ nav {
     text-transform: uppercase;
     text-shadow: none;
     box-shadow: none;
-    border: none; 
+    border: none;
     border-radius: none;
     background-image: none;
     margin-bottom: 2em;}
@@ -285,7 +285,7 @@ figure img {
 
 .recipe span {
     color: #ea6045;
-    margin-right: 1em;}  
+    margin-right: 1em;}
 
 
 .recipe-img {
@@ -376,8 +376,8 @@ footer h6 {
 
 
 @media screen and (min-width: 768px) {
-    
-    
+
+
  /* ==================================
     SM HEADER
 ===================================== */
@@ -397,16 +397,16 @@ header h2 {
 
 .header-text {
     margin-top: 20%;
-    text-align: center;}  
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    text-align: center;}
+
+
+
+
+
+
+
+
+
 /* ==================================
     SM NAV
 ===================================== */
@@ -427,28 +427,28 @@ nav {
 .nav-justified li a {
     text-align: center;
     background-color: #FFFFFF;}
-    
-    
+
+
 .nav-justified {
     background-color: #FFFFFF;
     padding-top: .6em;
-    width: 90%;}
-    
+    width: 60%;} /* changed to 60% so the search bar can fit on the side when on tablet*/
+
 
 .navbar-collapse a:hover {
     color: #ea6045;
     background-color: #FFFFFF;}
-    
-    
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
 
 /* ==================================
     SM SUB-NAV
@@ -459,7 +459,7 @@ nav {
     text-transform: uppercase;
     text-shadow: none;
     box-shadow: none;
-    border: none; 
+    border: none;
     border-radius: none;
     background-image: none;
     margin-top: 2em;}
@@ -468,14 +468,14 @@ nav {
 .btn-group-justified strong {
     color: #ea6045;}
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 /* ==================================
     SM FIGS
 ===================================== */
@@ -517,14 +517,14 @@ figure {
 figure img {
     height: auto;
     max-width: 100%;}
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
 /* ==================================
     SM RECIPE PAGE
 ===================================== */
@@ -540,7 +540,7 @@ figure img {
 
 .recipe span {
     color: #ea6045;
-    margin-right: .2em;}  
+    margin-right: .2em;}
 
 
 .recipe-img {
@@ -583,18 +583,18 @@ article strong {
     margin-right: 1em;
     margin-top: 3em;
     margin-bottom: 5em;}
-    
-    
+
+
 .prep {
     margin-top: 5em;
     margin-left: 2em;}
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
 
 /* ==================================
     SM FOOTER
@@ -613,16 +613,18 @@ footer {
 footer h6 {
     text-align: center;
     font-size: 1.2em;}
-    
-    
-    
-    
-    
-    
-    
-    
-}   
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 992px) {
+  .nav-justified {
+      width: 74%;} /* changed to 74% so the search bar can fit on the side when on desktop*/
+
+}
