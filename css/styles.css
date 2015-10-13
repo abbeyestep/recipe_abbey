@@ -114,6 +114,28 @@ header h2 {
     text-align: center;}
 
 
+.form-control {
+    border-radius: 0;}
+    
+    
+    
+.input-group-btn {
+    border-radius: 0;
+    background-color: #FFFFFF;}
+    
+
+    
+.btn {
+    border-radius: 0;
+    background-image: none;}
+    
+    
+
+.btn-default {
+    text-shadow: 0;
+    box-shadow: 0;}
+
+
 
 
 
@@ -136,7 +158,8 @@ nav {
     z-index: 9999;
     background-color: #FFFFFF;
     height: 4em;
-    border-bottom: .1em solid #c1c1c1;}
+    border-bottom: .1em solid rgba(193, 193, 193, 0.35);
+    margin-top: 0em !important;}
 
 
 .navbar-collapse a {
@@ -145,6 +168,7 @@ nav {
     letter-spacing: .2em;
     color: #FFFFFF;
     background-color: #ea6045;}
+
 
 
 .nav-justified {
@@ -203,8 +227,7 @@ nav {
 main {}
 
 .container-fluid {
-    padding: 0;
-    margin-top: 0em;}
+    padding-top: 1em;}
 
 
 
@@ -263,6 +286,11 @@ figure {
 figure img {
     height: auto;
     max-width: 100%;}
+
+
+.row {
+    margin-left: 0;
+    margin-right: 0;}
 
 
 
@@ -336,6 +364,35 @@ article strong {
 
 
 
+/* ==================================
+    XS SEARCH
+===================================== */
+
+.search {
+    padding-top: 8em;
+    padding-bottom: 4em;
+    background-color: #f8ca4d;
+    width: 100%;}
+
+
+.search ul {
+    padding-left: 0;}
+
+
+.search-tag {
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    background-color: #2f3640;
+    color: #FFFFFF;}
+
+
+
+
+
+
+
+
 
 /* ==================================
     XS FOOTER
@@ -400,6 +457,27 @@ header h2 {
     text-align: center;}  
     
     
+.form-control {
+    border-radius: 0;}
+    
+    
+    
+.input-group-btn {
+    border-radius: 0;
+    background-color: #FFFFFF;}
+    
+
+    
+.btn {
+    border-radius: 0;
+    background-image: none;}
+    
+    
+
+.btn-default {
+    text-shadow: 0;
+    box-shadow: 0;}
+    
     
     
     
@@ -414,7 +492,12 @@ header h2 {
 
 
 nav {
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+    height: 4em;}
+    
+    
+.navbar-collapse {
+    height: 4em;}
 
 
 .navbar-collapse a {
@@ -431,13 +514,22 @@ nav {
     
 .nav-justified {
     background-color: #FFFFFF;
-    padding-top: .6em;
-    width: 90%;}
+    width: 60%;
+    margin-left: 22%;
+    height: 4em;}
     
 
 .navbar-collapse a:hover {
     color: #ea6045;
     background-color: #FFFFFF;}
+    
+    
+.logo a {
+    font-family: caslon, georgia !important;
+    text-transform: lowercase !important;
+    color: #ea6045 !important;
+    letter-spacing: 0em !important;
+    font-size: 1.8em !important;}
     
     
 
@@ -462,11 +554,13 @@ nav {
     border: none; 
     border-radius: none;
     background-image: none;
-    margin-top: 2em;}
+    margin-top: 6em;}
 
 
 .btn-group-justified strong {
     color: #ea6045;}
+
+    
 
     
     
@@ -484,7 +578,7 @@ nav {
     width: 100%;
     height: auto;
     margin-bottom: 5em;
-    margin-top: 3em;}
+    z-index: 97;}
 
 
 .pull figcaption {
@@ -498,7 +592,7 @@ nav {
     text-transform: uppercase;
     color: #000000;
     background-color: #f8ca4d;
-    padding: .8em;
+    padding: 1em;
     border-radius: 0;}
 
 
@@ -508,10 +602,9 @@ nav {
 
 
 figure {
-    width: 100%;
+    width: 90%;
     height: auto;
-    margin-bottom: 4em;
-    margin-right: 2em !important;}
+    margin-bottom: 4em;}
 
 
 figure img {
@@ -535,12 +628,12 @@ figure img {
     text-transform: uppercase;
     line-height: 2em;
     margin-top: 1.5em;
-    margin-left: 2em;}
+    margin-left: 30%;}
 
 
 .recipe span {
     color: #ea6045;
-    margin-right: .2em;}  
+    margin-right: 1em;}  
 
 
 .recipe-img {
@@ -595,6 +688,35 @@ article strong {
     
     
     
+    
+/* ==================================
+    SM SEARCH
+===================================== */
+
+.search {
+    padding-top: 8em;
+    padding-bottom: 4em;
+    background-color: #f8ca4d;
+    width: 100%;}
+
+
+.search ul {
+    padding-left: 0;}
+
+
+.search-tag {
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    background-color: #2f3640;
+    color: #FFFFFF;}
+    
+    
+    
+    
+    
+    
+    
 
 /* ==================================
     SM FOOTER
@@ -621,7 +743,82 @@ footer h6 {
     
     
     
-}   
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    
+
+ /* ==================================
+    MD HEADER
+===================================== */
+
+header {
+    background-image: url(../images/header/bg-sm.jpg);
+    background-size: cover;
+    height: 60em;}
+
+
+header h1 {
+    color: #f8ca4d;}
+
+
+header h2 {
+    color: #ffffff;}
+
+.header-text {
+    margin-top: 20%;
+    text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
     
     
     
