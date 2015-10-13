@@ -25,22 +25,22 @@
 <body>
 
 
-    
+
 <nav>
     <div class="navbar-header">
         <button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="glyphicon glyphicon-menu-hamburger"></span>
         </button>
-        
-            
-    <ul class="collapse navbar-collapse  nav  nav-justified list-unstyled" id="bs-example-navbar-collapse-1">
+
+
+    <ul class="col-sm-8 collapse navbar-collapse  nav nav-justified list-unstyled" id="bs-example-navbar-collapse-1">
         <li><a href="index.html">Home</a></li>
         <li><a href="food.html">Food</a></li>
         <li><a href="#">Drinks</a></li>
         <li><a href="#">Videos</a></li>
     </ul>
-        
+
         <div id="sb-search" class="sb-search">
 						<form>
 							<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
@@ -49,15 +49,15 @@
 						</form>
 					</div>
 
-    
+
         </div>
-</nav>  
-    
-    
-    
- 
-    
-    
+</nav>
+
+
+
+
+
+
 <header class="container-fluid">
     <div class="header-text">
     <div class="col-xs-8 col-xs-offset-2"><h1>savor</h1>
@@ -69,95 +69,101 @@
       </span>
     </div>
     </div>
-    
+
 </header>
-    
-    
-    
-    
-    
-<main class="container-fluid col-sm-10 col-sm-offset-2">   
-  
-    
-<a href="recipe.html" class="pull">  
+
+
+
+
+
+<main class="container-fluid col-sm-10 col-sm-offset-1"> <!--this should be offset by 1 since you want the same margin replicated on the right as well-->
+
+
+<a href="recipe.html" class="pull">
 <figure class="pull col-xs-12">
     <img src="images/ziti_xs.jpg" alt="Three-Cheese Baked Ziti" class="img-responsive visible-xs"/>
-     
+
 <img src="images/ziti_sm.jpg" alt="Three-Cheese Baked Ziti" class="img-responsive hidden-xs"/>
     <figcaption>
         <span class="label label-default">Pasta</span>
         <h5>Three-Cheese <br>Baked Ziti</h5>
     </figcaption>
 </figure></a>
-    
-     
-     
-     
-<figure class="row col-xs-12 col-sm-5 pull-left">
+
+
+
+
+<figure class="col-xs-12 col-sm-5 pull-left">
+  <div class="row">
     <img src="images/figure/bagel-sandwich.jpg" alt="bagel sandwich" class="img-responsive"/>
-    <figcaption>     
+    <figcaption>
         <h5>Recipe Title</h5>
         <span class="label label-default">Category</span>
     </figcaption>
+  </div>
 </figure>
-    
-    
-     
 
-    
-    
-     
-<figure class="row col-xs-12 col-sm-5 pull-left">
+
+
+
+
+<!-- You should have your row class on a child element or else it only knocks off the padding on the left side. See below-->
+
+<figure class="col-xs-12 col-sm-5 pull-left">
+  <div class="row"> <!--I moved the row to this div so the padding is removed from both sides-->
     <img src="images/figure/vegetable-salad.jpg" alt="vegetable salad" class="img-responsive"/>
-    <figcaption>     
+    <figcaption>
         <h5>Recipe Title</h5>
         <span class="label label-default">Category</span>
     </figcaption>
+  </div><!--closes row-->
 </figure>
-     
-    
-     
-<figure class="row col-xs-12 col-sm-5 pull-left">
-    <img src="images/figure/buschetta.jpg" alt="bruschetta" class="img-responsive"/>
-    <figcaption>     
-        <h5>Recipe Title</h5>
-        <span class="label label-default">Category</span>
-    </figcaption>
-</figure>
-     
-     
-     
-     
-     
-    
-    
-    
-    
-<footer class="row col-xs-12">
 
+
+
+<figure class="col-xs-12 col-sm-5 pull-left">
+  <div class="row">
+    <img src="images/figure/buschetta.jpg" alt="bruschetta" class="img-responsive"/>
+    <figcaption>
+        <h5>Recipe Title</h5>
+        <span class="label label-default">Category</span>
+    </figcaption>
+  </div>
+</figure>
+
+
+
+
+
+
+
+
+
+<footer class="col-xs-12">
+<div class="row">
     <h6>subscribe for new recipes</h6>
-    
+
     <div></div>
-     
-</footer>   
-    
-    
-    
-    
-    
-    
-    
-    
-    
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
 
 
 </main>
-     
-     
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
-    
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
-    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <script src="js/classie.js"></script>
 		<script src="js/uisearch.js"></script>
 		<script>

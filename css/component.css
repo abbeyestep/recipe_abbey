@@ -117,3 +117,18 @@
 .no-js .sb-search .sb-search-submit {
 	z-index: 90;
 }
+
+/* I changed the width of the search bar expansion so it fits on the side of the nav*/
+@media (min-width: 768px) {
+	.sb-search.sb-search-open,
+	.no-js .sb-search {
+		width: 40%;
+	}
+}
+
+@media (min-width: 992px) {
+	.sb-search.sb-search-open,
+	.no-js .sb-search {
+		width: 25%;
+	}
+}
